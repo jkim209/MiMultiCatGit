@@ -1,13 +1,13 @@
 # MiMultiCatGit
 
-Title: MiMultiCat: A unified web cloud analytic platform for user-friendly and interpretable microbiome data mining using tree-based methods
+Title: MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses
 
 
 Version: 1.0.0
 
 Maintainer: Jihun Kim <toujours209@gmail.com>
 
-Description: MiMultiCat is a unified web cloud analytic platform for user-friendly and interpretable microbiome data mining using tree-based methods. Machine learning is a promising approach to help such an effort especially due to the high complexity of microbiome data. However, many of the current machine learning algorithms are in a “black box”. They are hard to understand and interpret. Clinicians, public health practitioners or biologists are not also usually skilled at computer programming, and they do not always have a high-end computing device. MiMultiCat employs tree-based learning methods, including 1) decision tree, 2) random forest and 3) gradient boosting, that are both well understood and suited to human microbiome studies, for both classification and regression problems through covariate-adjusted or unadjusted analysis. 
+Description: The field of human microbiome is rapidly growing due to the recent advances in high-throughput sequencing technologies. In the meantime, there have also been many new analytic pipelines, methods and/or tools that are developed for microbiome data preprocessing and analytics. They have usually focused on the microbiome data with continuous (e.g., body mass index) or binary responses (e.g., diseased vs. healthy), yet multi-categorical responses that have more than two categories are also common in reality. In this paper, we introduce a unified cloud platform, named MiMultiCat, for the analysis of microbiome data with multi-categorical responses. The two main distinguished features of MiMultiCat are as follows. First, MiMultiCat streamlines a long sequence of microbiome data preprocessing and analytic procedures on user-friendly web interfaces; as such, it is easy to use for many people in various disciplines (e.g., biology, medicine, public health). Second, MiMultiCat performs both association testing and prediction modeling extensively. For association testing, MiMultiCat handles both ecological (e.g., alpha- and beta-diversity) and taxonomical (e.g., phylum, class, order, family, genus, species) contexts through covariate-adjusted or unadjusted analysis. For prediction modeling, MiMultiCat employs random forest and gradient boosting algorithms that are well-suited to microbiome data with nice visual interpretations. We demonstrate its use through the reanalysis of gut microbiome data on obesity with body mass index categories. MiMultiCat is freely available on our web server (http://mimulticat.micloud.kr). 
 
 NeedsCompilation: No
 
