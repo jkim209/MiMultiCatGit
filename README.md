@@ -3,7 +3,7 @@
 Title: MiMultiCat: A unified web cloud analytic platform for user-friendly and interpretable microbiome data mining using tree-based methods
 
 
-Version: 1.0.1
+Version: 1.0.0
 
 Maintainer: Jihun Kim <toujours209@gmail.com>
 
@@ -12,7 +12,7 @@ Description: MiMultiCat is a unified web cloud analytic platform for user-friend
 NeedsCompilation: No
 
 Depends: R(≥ 4.1.0)
-**(1.4.0.1)**
+
 Imports: Bioconductor ('BiocManager', 'biomformat', 'phyloseq'); CRAN ('shiny', 'rmarkdown', 'seqinr', 'shinydashboard', 'tidyverse', 'plotly', 'shinyWidgets', 'shinyjs', 'googleVis', 'xtable',
             'DT', 'htmltools', 'phangorn', 'bios2mds', 'zip', 'ape', 'zCompositions', 'compositions', 'stringr', 'caret', 'ggplot2', 'randomForest', 
             'data.table', 'xgboost', 'SHAPforxgboost', 'fontawesome', 'grid', 'ggplotify', 'remotes', 'doParallel', 'reshape2', 'fossil', 
