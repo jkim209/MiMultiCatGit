@@ -221,6 +221,19 @@ options(scipen=999)
   DATA_TRANSFORM_REFERENCE = p("1. Aitchison J. The statistical analysis of compositional data. J R Stat Soc B. 1982;44(2):139-77", br(),
                                "2. Sanders HL. Marine benthic diversity: A comparative study. Am Nat. 1968;102:243-282.")
   
+  TAXA_ANOVAF_REFERENCE = p("1. Kim J, Jang H, Koh H. MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses. (Under review)", br(),
+                             "2. Tukey JW. Commparing Individual Means in the Analysis of Variance. Biometrics. 1949;5(2):99-114", br(),
+                            "3. Benjamini Y, Hochberg Y. Controlling the false discovery rate: A practical and powerful approach to multiple testing. J R Stat Soc Series B. 1995;57(1):289-300.")
+  TAXA_KRUSKAL_REFERENCE = p("1. Kim J, Jang H, Koh H. MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses. (Under review)", br(),
+                              "2. Kruskal WH, Wallis WA. Use of Ranks in One-Criterion Variance Analysis. Journal of the American Statistical Association. 1952;47(260):583-621", br(), 
+                              "3. Dunn OH. Multiple Comparisons Using Rank Sums. Technometrics. 1964;6(3):241-252", br(),
+                             "4. Benjamini Y, Hochberg Y. Controlling the false discovery rate: A practical and powerful approach to multiple testing. J R Stat Soc Series B. 1995;57(1):289-300.")
+  TAXA_PROPODDS_REFERENCE = p("1. Kim J, Jang H, Koh H. MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses. (Under review)", br(),
+                               "2. McCullaph P. Regression models for ordinal data. J R Stat Soc Series B. 1980;42(2):109-142.", br(),
+                              "3. Benjamini Y, Hochberg Y. Controlling the false discovery rate: A practical and powerful approach to multiple testing. J R Stat Soc Series B. 1995;57(1):289-300.")
+  TAXA_MULTINOM_REFERENCE <- p("1. Kim J, Jang H, Koh H. MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses. (Under review)", br(),
+                               "2. Benjamini Y, Hochberg Y. Controlling the false discovery rate: A practical and powerful approach to multiple testing. J R Stat Soc Series B. 1995;57(1):289-300.")
+  
   # RF COMMENTS -----
   
   RF_REFERENCE = p("1. Kim J, Jang H, Koh H. MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses. (Under review)", br(),
@@ -3019,7 +3032,7 @@ server = function(input, output, session){
             tagList(
               p(" ", style = "margin-top: 20px;"),
               box(title = strong("References", style = "color:white"), width = NULL, status = "info", solidHeader = TRUE,
-                  p(ALPHA_ANOVAF_REFERENCE, style = "font-size:11pt")
+                  p(TAXA_ANOVAF_REFERENCE, style = "font-size:11pt")
               )
             )
           })
@@ -3333,7 +3346,7 @@ server = function(input, output, session){
             tagList(
               p(" ", style = "margin-top: 20px;"),
               box(title = strong("References", style = "color:white"), width = NULL, status = "info", solidHeader = TRUE,
-                  p(ALPHA_KRUSKAL_REFERENCE, style = "font-size:11pt")
+                  p(TAXA_KRUSKAL_REFERENCE, style = "font-size:11pt")
               ) 
             )
           })
@@ -3979,7 +3992,7 @@ server = function(input, output, session){
             tagList(
               p(" ", style = "margin-top: 20px;"),
               box(title = strong("References", style = "color:white"), width = NULL, status = "info", solidHeader = TRUE,
-                  p(ALPHA_MULTINOM_REFERENCE, style = "font-size:11pt")
+                  p(TAXA_MULTINOM_REFERENCE, style = "font-size:11pt")
               )
             )
           })
@@ -4064,7 +4077,7 @@ server = function(input, output, session){
             tagList(
               p(" ", style = "margin-top: 20px;"),
               box(title = strong("References", style = "color:white"), width = NULL, status = "info", solidHeader = TRUE,
-                  p(ALPHA_PROPODDS_REFERENCE, style = "font-size:11pt")
+                  p(TAXA_PROPODDS_REFERENCE, style = "font-size:11pt")
               )
             )
           })
