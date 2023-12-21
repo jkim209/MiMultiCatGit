@@ -1668,7 +1668,7 @@ server = function(input, output, session){
       
       p(" ", style = "margin-top: 25px;"),
       h4(strong("# trees", style = "color:black")),
-      p("The number of bagged trees to be aggregated (Default: 1,000).", style = "font-size:10pt"),
+      p("The number of bagged trees to be aggregated (Default: 1,000). We recommend increasing the number of trees as large as possible (e.g., 10,000), but it can be done at the cost of slow computation.", style = "font-size:10pt"),
       p(" ", style = "margin-bottom: +15px;"),
       selectInput("rf_nom_ntree", label = NULL, 
                   c("Choose one" = "", c(1000, 3000, 5000, 10000)), selected = 1000, width = '70%'),
