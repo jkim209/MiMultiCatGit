@@ -1,6 +1,6 @@
 # MiMultiCatGit
 
-Title: MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses
+Title: MiMultiCat: A Unified Cloud Platform for the Analysis of Microbiome Data with Multi-Categorical Responses
 
 
 Version: 1.0.0
@@ -27,7 +27,7 @@ License: GPL 1, GPL 2
 
 ## References
 
-* Kim J, Jang H, Koh H. MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses. (Under review)
+* Kim J, Jang H, Koh H. MiMultiCat: A Unified Cloud Platform for the Analysis of Microbiome Data with Multi-Categorical Responses. Bioengineering. 2024, 11(1), 60.
 
 
 ## Prerequites
