@@ -72,7 +72,7 @@ options(scipen=999)
   HOME_COMMENT2 = p(strong("URLs:"), "Web server (online implementation):", tags$a(href = "http://mimulticat.micloud.kr", "http://mimulticat.micloud.kr"), 
                     "; GitHub repository (local implementation):", tags$a(href = "https://github.com/jkim209/MiMultiCatGit", "https://github.com/jkim209/MiMultiCatGit"), style = "font-size:12pt")
   HOME_COMMENT3 = p(strong("Maintainers:"), "Jihun Kim (", tags$a(href = "toujours209@gmail.com", "toujours209@gmail.com"), ")", style = "font-size:12pt")
-  HOME_COMMENT4 = p(strong("Reference:"), "Kim J, Jang H, Koh H. MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses. (Under review)", style = "font-size:12pt")
+  HOME_COMMENT4 = p(strong("Reference:"), "Kim J, Jang H, Koh H. MiMultiCat: A Unified Cloud Platform for the Analysis of Microbiome Data with Multi-Categorical Responses. Bioengineering. 2024, 11(1), 60.", style = "font-size:12pt")
   
   # INPUT COMMENTS -----
   
