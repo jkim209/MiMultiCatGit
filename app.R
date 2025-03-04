@@ -174,7 +174,7 @@ options(scipen=999)
   
   # MiMultiCat Reference -----
   
-  MiMultiCat_REFERENCE <- p("1. Kim J, Jang H, Koh H. MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses. (Under review)")
+  MiMultiCat_REFERENCE <- p("1. Kim J, Jang H, Koh H. MiMultiCat: A Unified Cloud Platform for the Analysis of Microbiome Data with Multi-Categorical Responses. Bioengineering. 2024, 11(1) 60.")
   
   # ALPHA COMMENTS -----
   
@@ -188,14 +188,14 @@ options(scipen=999)
                        "5. Lee S, Chao A. Estimating population size via sample coverage for closed capture-recapture models. Biometrics. 1994:50:1:88-97.", br(),
                        "6. Shannon CE. A mathematical theory of communication. Bell Syst Tech J. 1948:27:379-423 & 623-656.", br(),
                        "7. Simpson EH. Measurement of diversity. Nature 1949:163:688.", br())
-  ALPHA_ANOVAF_REFERENCE = p("1. Kim J, Jang H, Koh H. MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses. (Under review)", br(),
+  ALPHA_ANOVAF_REFERENCE = p("1. Kim J, Jang H, Koh H. MiMultiCat: A Unified Cloud Platform for the Analysis of Microbiome Data with Multi-Categorical Responses. Bioengineering. 2024, 11(1) 60.", br(),
                              "2. Tukey JW. Commparing Individual Means in the Analysis of Variance. Biometrics. 1949;5(2):99-114", br())
-  ALPHA_KRUSKAL_REFERENCE = p("1. Kim J, Jang H, Koh H. MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses. (Under review)", br(),
+  ALPHA_KRUSKAL_REFERENCE = p("1. Kim J, Jang H, Koh H. MiMultiCat: A Unified Cloud Platform for the Analysis of Microbiome Data with Multi-Categorical Responses. Bioengineering. 2024, 11(1) 60.", br(),
                               "2. Kruskal WH, Wallis WA. Use of Ranks in One-Criterion Variance Analysis. Journal of the American Statistical Association. 1952;47(260):583-621", br(), 
                               "3. Dunn OH. Multiple Comparisons Using Rank Sums. Technometrics. 1964;6(3):241-252")
-  ALPHA_PROPODDS_REFERENCE = p("1. Kim J, Jang H, Koh H. MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses. (Under review)", br(),
+  ALPHA_PROPODDS_REFERENCE = p("1. Kim J, Jang H, Koh H. MiMultiCat: A Unified Cloud Platform for the Analysis of Microbiome Data with Multi-Categorical Responses. Bioengineering. 2024, 11(1) 60.", br(),
                                "2. McCullaph P. Regression models for ordinal data. J R Stat Soc Series B. 1980;42(2):109-142.")
-  ALPHA_MULTINOM_REFERENCE <- p("1. Kim J, Jang H, Koh H. MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses. (Under review)")
+  ALPHA_MULTINOM_REFERENCE <- p("1. Kim J, Jang H, Koh H. MiMultiCat: A Unified Cloud Platform for the Analysis of Microbiome Data with Multi-Categorical Responses. Bioengineering. 2024, 11(1) 60.")
   
   # BETA COMMENTS -----
   
@@ -208,9 +208,9 @@ options(scipen=999)
                       "4. Lozupone CA, Hamady M, Kelley ST, Knight R. Quantitative and qualitative β-diversity measures lead to 
                       different insights into factors that structure microbial communities. Appl Environ Microbiol. 2007;73(5):1576-85.", br(),
                       "5. Lozupone CA, Knight R. UniFrac: A new phylogenetic method for comparing microbial communities. Appl Environ Microbiol. 2005;71(12):8228-35.")
-  BETA_DA_REFERENCE = p("1. Kim J, Jang H, Koh H. MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses. (Under review)", br(),
+  BETA_DA_REFERENCE = p("1. Kim J, Jang H, Koh H. MiMultiCat: A Unified Cloud Platform for the Analysis of Microbiome Data with Multi-Categorical Responses. Bioengineering. 2024, 11(1) 60.", br(),
                         "2.Jiang Z, He M, Chen J, Zhao N, Zhan X. MiRKAT-MC: A Distance-Based Microbiome Kernel Association Test With Multi-Categorical Outcomes. Front Genet. 2022;13:841764.")
-  BETA_PERMANOVA_REFERENCE = p("1. Kim J, Jang H, Koh H. MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses. (Under review)", br(),
+  BETA_PERMANOVA_REFERENCE = p("1. Kim J, Jang H, Koh H. MiMultiCat: A Unified Cloud Platform for the Analysis of Microbiome Data with Multi-Categorical Responses. Bioengineering. 2024, 11(1) 60.", br(),
                                "2. Anderson MA. new method for non-parametric multivariate analysis of variance. Austral Ecology. 2001;26(1):32-46.", br(),
                                "3. McArdle BH, Anderson MJ. Fitting multivariate models to community data: A comment on distance-based redundancy analysis. Ecology. 2001;82(1):290-297.")
   
@@ -221,42 +221,42 @@ options(scipen=999)
   DATA_TRANSFORM_REFERENCE = p("1. Aitchison J. The statistical analysis of compositional data. J R Stat Soc B. 1982;44(2):139-77", br(),
                                "2. Sanders HL. Marine benthic diversity: A comparative study. Am Nat. 1968;102:243-282.")
   
-  TAXA_ANOVAF_REFERENCE = p("1. Kim J, Jang H, Koh H. MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses. (Under review)", br(),
+  TAXA_ANOVAF_REFERENCE = p("1. Kim J, Jang H, Koh H. MiMultiCat: A Unified Cloud Platform for the Analysis of Microbiome Data with Multi-Categorical Responses. Bioengineering. 2024, 11(1) 60.", br(),
                              "2. Tukey JW. Commparing Individual Means in the Analysis of Variance. Biometrics. 1949;5(2):99-114", br(),
                             "3. Benjamini Y, Hochberg Y. Controlling the false discovery rate: A practical and powerful approach to multiple testing. J R Stat Soc Series B. 1995;57(1):289-300.")
-  TAXA_KRUSKAL_REFERENCE = p("1. Kim J, Jang H, Koh H. MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses. (Under review)", br(),
+  TAXA_KRUSKAL_REFERENCE = p("1. Kim J, Jang H, Koh H. MiMultiCat: A Unified Cloud Platform for the Analysis of Microbiome Data with Multi-Categorical Responses. Bioengineering. 2024, 11(1) 60.", br(),
                               "2. Kruskal WH, Wallis WA. Use of Ranks in One-Criterion Variance Analysis. Journal of the American Statistical Association. 1952;47(260):583-621", br(), 
                               "3. Dunn OH. Multiple Comparisons Using Rank Sums. Technometrics. 1964;6(3):241-252", br(),
                              "4. Benjamini Y, Hochberg Y. Controlling the false discovery rate: A practical and powerful approach to multiple testing. J R Stat Soc Series B. 1995;57(1):289-300.")
-  TAXA_PROPODDS_REFERENCE = p("1. Kim J, Jang H, Koh H. MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses. (Under review)", br(),
+  TAXA_PROPODDS_REFERENCE = p("1. Kim J, Jang H, Koh H. MiMultiCat: A Unified Cloud Platform for the Analysis of Microbiome Data with Multi-Categorical Responses. Bioengineering. 2024, 11(1) 60.", br(),
                                "2. McCullaph P. Regression models for ordinal data. J R Stat Soc Series B. 1980;42(2):109-142.", br(),
                               "3. Benjamini Y, Hochberg Y. Controlling the false discovery rate: A practical and powerful approach to multiple testing. J R Stat Soc Series B. 1995;57(1):289-300.")
-  TAXA_MULTINOM_REFERENCE <- p("1. Kim J, Jang H, Koh H. MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses. (Under review)", br(),
+  TAXA_MULTINOM_REFERENCE <- p("1. Kim J, Jang H, Koh H. MiMultiCat: A Unified Cloud Platform for the Analysis of Microbiome Data with Multi-Categorical Responses. Bioengineering. 2024, 11(1) 60.", br(),
                                "2. Benjamini Y, Hochberg Y. Controlling the false discovery rate: A practical and powerful approach to multiple testing. J R Stat Soc Series B. 1995;57(1):289-300.")
   
   # RF COMMENTS -----
   
-  RF_REFERENCE = p("1. Kim J, Jang H, Koh H. MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses. (Under review)", br(),
+  RF_REFERENCE = p("1. Kim J, Jang H, Koh H. MiMultiCat: A Unified Cloud Platform for the Analysis of Microbiome Data with Multi-Categorical Responses. Bioengineering. 2024, 11(1) 60.", br(),
                    "2. Breiman L. Random forests. Mach Learn. 2001;45:5-32", br())
-  RF_REFERENCE_CLR = p("1. Kim J, Jang H, Koh H. MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses. (Under review)", br(),
+  RF_REFERENCE_CLR = p("1. Kim J, Jang H, Koh H. MiMultiCat: A Unified Cloud Platform for the Analysis of Microbiome Data with Multi-Categorical Responses. Bioengineering. 2024, 11(1) 60.", br(),
                        "2. Breiman L. Random forests. Mach Learn. 2001;45:5-32", br(),
                        "3. Aitchison J. The statistical analysis of compositional data. J R Stat Soc B. 1982;44(2):139-77")
-  RF_REFERENCE_RC = p("1. Kim J, Jang H, Koh H. MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses. (Under review)", br(),
+  RF_REFERENCE_RC = p("1. Kim J, Jang H, Koh H. MiMultiCat: A Unified Cloud Platform for the Analysis of Microbiome Data with Multi-Categorical Responses. Bioengineering. 2024, 11(1) 60.", br(),
                       "2. Breiman L. Random forests. Mach Learn. 2001;45:5-32", br(),
                       "3. Sanders HL. Marine benthic diversity: A comparative study. Am Nat. 1968;102:243-282.")
   
   # XGB COMMENTS -----
   
-  XGB_REFERENCE = p("1. Kim J, Jang H, Koh H. MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses. (Under review)", br(),
+  XGB_REFERENCE = p("1. Kim J, Jang H, Koh H. MiMultiCat: A Unified Cloud Platform for the Analysis of Microbiome Data with Multi-Categorical Responses. Bioengineering. 2024, 11(1) 60.", br(),
                     "2. Friedman JH. Greedy function approximation: A gradient boosting machine. Ann Stat. 2001;29(5):1189-1232",br(),
                     "3. Chen T, Guestrin C. XGBoost: A scalable tree boosting system. in Proc the 22nd ACM SIGKDD Int Conf KDD. ACM. 2016;785-794", br(),
                     "4. Lundberg SM, Lee SI. A unified approach to interpreting model predictions. in Proc Adv Neural Inf Process Syst. 2017;4765-4774.")
-  XGB_REFERENCE_CLR = p("1. Kim J, Jang H, Koh H. MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses. (Under review)", br(),
+  XGB_REFERENCE_CLR = p("1. Kim J, Jang H, Koh H. MiMultiCat: A Unified Cloud Platform for the Analysis of Microbiome Data with Multi-Categorical Responses. Bioengineering. 2024, 11(1) 60.", br(),
                         "2. Friedman JH. Greedy function approximation: A gradient boosting machine. Ann Stat. 2001;29(5):1189-1232",br(),
                         "3. Chen T, Guestrin C. XGBoost: A scalable tree boosting system. in Proc the 22nd ACM SIGKDD Int Conf KDD. ACM. 2016;785-794", br(),
                         "4. Lundberg SM, Lee SI. A unified approach to interpreting model predictions. in Proc Adv Neural Inf Process Syst. 2017;4765-4774.",br(),
                         "5. Aitchison J. The statistical analysis of compositional data. J R Stat Soc B. 1982;44(2):139-77")
-  XGB_REFERENCE_RC = p("1. Kim J, Jang H, Koh H. MiMultiCat: A unified cloud platform for the analysis of microbiome data with multi-categorical responses. (Under review)", br(),
+  XGB_REFERENCE_RC = p("1. Kim J, Jang H, Koh H. MiMultiCat: A Unified Cloud Platform for the Analysis of Microbiome Data with Multi-Categorical Responses. Bioengineering. 2024, 11(1) 60.", br(),
                        "2. Friedman JH. Greedy function approximation: A gradient boosting machine. Ann Stat. 2001;29(5):1189-1232",br(),
                        "3. Chen T, Guestrin C. XGBoost: A scalable tree boosting system. in Proc the 22nd ACM SIGKDD Int Conf KDD. ACM. 2016;785-794", br(),
                        "4. Lundberg SM, Lee SI. A unified approach to interpreting model predictions. in Proc Adv Neural Inf Process Syst. 2017;4765-4774.",br(),
